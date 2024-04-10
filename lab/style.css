@@ -1,0 +1,89 @@
+
+body{
+  margin: 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:bisque;
+  border: 3px solid black;
+}
+
+.header {
+  text-align: center;
+  padding: 50px ;
+  background-image: url('/Trabajos-html-css/Ejercicions-html-css/week2_17-01/lab/img/fondojpeg.jpeg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header-tit {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5.5em;
+  margin-bottom: 1px;
+}
+
+.menu {
+  text-align: center;
+  padding: 20px ;
+  background-color: #333;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+.section {
+  padding: 2px 100px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.article {
+  background-color: #276a73;
+  font-size: large;
+  display: flex;
+  border-radius: 10px;  
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.articlulo {
+  line-height: 1.6;
+  text-align: justify;
+  column-count: 3;
+  column-gap: 20px;
+  hyphens: auto;
+  text-indent: 20px;
+  
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+
+nav{
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+a {
+  background-color: black;
+  color: rgb(126, 41, 41);
+  border-radius: 50px;
+  padding: 100px;
+  text-decoration: none;
+      &:hover{
+          box-shadow: 0 0 5px;
+          color:#ccad30;
+      }
+  }
+  
